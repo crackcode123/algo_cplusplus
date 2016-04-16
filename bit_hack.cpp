@@ -43,7 +43,7 @@ static unsigned count_set_bit(unsigned int x)
 //
 // get n bits from position p
 //
-static unsigned int getbits(unsigned int x, int p /*0 based index in bitmap */, int n)
+unsigned int getbits(unsigned int x, int p /*0 based index in bitmap */, int n)
 {
 	unsigned int mask	= ~(~0 << n);
 	unsigned int shift  = (p - n + 1);
