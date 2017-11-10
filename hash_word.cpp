@@ -5,10 +5,6 @@
 #include<stddef.h>
 
 
-//
-//  word count
-//
-
 
 //
 // count hash table 
